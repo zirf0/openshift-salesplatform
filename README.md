@@ -13,7 +13,7 @@ SalesPlatform is a fork of VtigerCRM adapted for Russian Federation.
 
 3) Add this upstream mediawiki repo
 
-    $ cd mediawiki
+    $ cd sp
     $ git remote add upstream -m master git://github.com/zirf0/openshift-salesplatform.git
     $ git pull -s recursive -X theirs upstream master
 
