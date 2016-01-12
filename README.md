@@ -1,4 +1,4 @@
-# openshift-salesplatform
+# OpenShift-SalesPlatform
 
 SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. 
 
@@ -23,7 +23,7 @@ SalesPlatform is a fork of VtigerCRM adapted for Russian Federation.
 
 5) That's it, you can now checkout your application at:
 
-    http://sp-$yourlogin.rhcloud.com
+    http://sp-$yourdomain.rhcloud.com
 
 6) Follow installatin procedure
 
