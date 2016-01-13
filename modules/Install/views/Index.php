@@ -102,7 +102,7 @@ class Install_Index_view extends Vtiger_View_Controller {
 		$viewer->assign('DB_HOSTNAME', $_ENV['OPENSHIFT_MYSQL_DB_HOST']);
 		$viewer->assign('DB_USERNAME', $_ENV['OPENSHIFT_MYSQL_DB_USERNAME']);
 		$viewer->assign('DB_PASSWORD', $_ENV['OPENSHIFT_MYSQL_DB_PASSWORD']);			
-		$viewer->assign('DB_NAME', $_ENV['OPENSHIFT_GEAR_NAME']);
+		$viewer->assign('DB_NAME', $_ENV['OPENSHIFT_APP_NAME']);
 		$viewer->assign('ADMIN_NAME', $defaultParameters['admin_name']);	
 		$viewer->assign('ADMIN_LASTNAME', $defaultParameters['admin_lastname']);	
 		$viewer->assign('ADMIN_PASSWORD', $defaultParameters['admin_password']);	
