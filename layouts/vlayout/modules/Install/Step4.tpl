@@ -52,7 +52,7 @@
 								<td><input type="password" value="{$DB_PASSWORD}" name="db_password"></td>
 							</tr>
 							<tr><td>{vtranslate('LBL_DB_NAME', 'Install')}<span class="no">*</span></td>
-								<td><input type="text" value="{$DB_NAME}" name="db_name"></td>
+								<td><input type="text" value="{.$_ENV["OPENSHIFT_MYSQL_DB_USERNAME"]}" name="db_name"></td>
 							</tr>
 							<tr><td colspan="2"><input type="checkbox" name="create_db"/><div class="chkbox"></div><label for="checkbox-1">{vtranslate('LBL_CREATE_NEW_DB','Install')}</label></td>
 							</tr>
