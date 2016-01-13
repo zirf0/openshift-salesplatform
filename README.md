@@ -1,6 +1,6 @@
 # OpenShift-SalesPlatform
 
-[![Version](https://badge.fury.io/hooks/github)]
+[![GitHub version](https://badge.fury.io/gh/zirf0%2Fopenshift-salesplatform.svg)](https://badge.fury.io/gh/zirf0%2Fopenshift-salesplatform)
 
 SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. 
 
