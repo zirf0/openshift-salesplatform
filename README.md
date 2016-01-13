@@ -1,5 +1,7 @@
 # OpenShift-SalesPlatform
 
+[![Version]
+
 SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. 
 
 # Setup
