@@ -46,7 +46,7 @@
 								<td><input type="text" value="{$DB_HOSTNAME}" name="db_hostname"></td>
 							</tr>
 							<tr><td>{vtranslate('LBL_USERNAME', 'Install')}<span class="no">*</span></td>
-								<td><input type="text" value=".$_ENV["OPENSHIFT_MYSQL_DB_USERNAME"]" name="db_username"></td>
+								<td><input type="text" value="{$DB_USERNAME}" name="db_username"></td>
 							</tr>
 							<tr><td>{vtranslate('LBL_PASSWORD','Install')}</td>
 								<td><input type="password" value="{$DB_PASSWORD}" name="db_password"></td>
