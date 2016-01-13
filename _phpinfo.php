@@ -1,3 +1,3 @@
 <?php
-echo 'Мое имя пользователя: ' .$_ENV["OPENSHIFT_MYSQL_DB_USERNAME"] . '!';
+echo 'Мое имя пользователя: ' .$_ENV['OPENSHIFT_APP_NAME'] . '!';
 ?>
