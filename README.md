@@ -30,3 +30,5 @@ SalesPlatform is a fork of VtigerCRM adapted for Russian Federation.
 # TODO
 
 1. Replace input of MySQL settings with OpenShift enviromental variables. 
+2. Add Customer portal.
+3. Add Kladr.
