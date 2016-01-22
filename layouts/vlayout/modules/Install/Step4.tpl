@@ -54,16 +54,7 @@
 							<tr><td>{vtranslate('LBL_DB_NAME', 'Install')}<span class="no">*</span></td>
 								<td><input type="text" value="{$DB_NAME}" name="db_name"></td>
 							</tr>
-							<tr><td colspan="2"><input type="checkbox" name="create_db"/><div class="chkbox"></div><label for="checkbox-1">{vtranslate('LBL_CREATE_NEW_DB','Install')}</label></td>
-							</tr>
-							<tr class="hide" id="root_user"><td>{vtranslate('LBL_ROOT_USERNAME', 'Install')}<span class="no">*</span></td>
-								<td><input type="text" value="" name="db_root_username"></td>
-							</tr>
-							<tr class="hide" id="root_password"><td>{vtranslate('LBL_ROOT_PASSWORD', 'Install')}</td>
-								<td><input type="password" value="" name="db_root_password"></td>
-							</tr>
-							<!--tr><td colspan="2"><input type="checkbox" checked name="populate"/><div class="chkbox"></div><label for="checkbox-1"> Populate database with demo data</label></td-->
-							</tr>
+							
 						</tbody>
 					</table>
 				
