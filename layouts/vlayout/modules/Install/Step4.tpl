@@ -66,8 +66,8 @@
 							</tr>
 						</tbody>
 					</table>
+				<H2> А фиг там </H2>
 				</div>
-				hhhhhh
 				<div class="span6">
 					<table class="config-table input-table">
 						<thead>
