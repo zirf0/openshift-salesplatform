@@ -66,7 +66,10 @@
 							</tr>
 						</tbody>
 					</table>
-				<H2> А фиг там </H2>
+				<--Insertion-->
+				<img class="size-medium wp-image-31 alignleft" src="http://blog-zirf.rhcloud.com/wp-content/uploads/2015/12/openshift-300x112.png" alt="openshift" width="100" height="34" />
+				<p style="text-align: justify;">Эта сборка предназначена для  OpenShift, данные СУБД заполняются автоматически.</p>
+				<--Insertion-->
 				</div>
 				<div class="span6">
 					<table class="config-table input-table">
