@@ -17,11 +17,11 @@ global $Portal_Path;
 
 // CRM URL without out trialing /
 // Example: http://yourdomain.com/crm
-$Server_Path = "http://localhost/vtiger640test1";
+$Server_Path = ['OPENSHIFT_GEAR_DNS']
 
 // Portal URL without trialing /
 // Example: http://yourdomain.com/portal
-$Authenticate_Path = "http://localhost/customerportal6";
+$Authenticate_Path = [OPENSHIFT_GEAR_DNS/cp]
 
 //Give a temporary directory path which is used when we upload attachment
 $upload_dir = '/tmp';
