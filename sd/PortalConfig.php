@@ -17,11 +17,11 @@ global $Portal_Path;
 
 // CRM URL without out trialing /
 // Example: http://yourdomain.com/crm
-$Server_Path = 'http://sptest-helidon.rhcloud.com' //'http://'.getenv('OPENSHIFT_GEAR_DNS');
+$Server_Path = 'http://spdev-helidon.rhcloud.com' //'http://'.getenv('OPENSHIFT_GEAR_DNS');
 
 // Portal URL without trialing /
 // Example: http://yourdomain.com/portal
-$_Path = 'http://sptest-helidon.rhcloud.com/sd' //'http://'.getenv('OPENSHIFT_GEAR_DNS').'/sd';
+$Authenticate_Path = 'http://spdev-helidon.rhcloud.com/sd' //'http://'.getenv('OPENSHIFT_GEAR_DNS').'/sd';
 
 //Give a temporary directory path which is used when we upload attachment
 $upload_dir = '/tmp';
