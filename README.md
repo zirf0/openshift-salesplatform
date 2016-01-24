@@ -1,7 +1,6 @@
 # OpenShift-SalesPlatform
 
 [![Join the chat at https://gitter.im/zirf0/openshift-salesplatform](https://badges.gitter.im/zirf0/openshift-salesplatform.svg)](https://gitter.im/zirf0/openshift-salesplatform?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub version](https://badge.fury.io/gh/zirf0%2Fopenshift-salesplatform.svg)](https://badge.fury.io/gh/zirf0%2Fopenshift-salesplatform)
 
 SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. Version 6.4.0
 # Setup
@@ -29,7 +28,9 @@ SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. Version 6.4
 
 6) Follow installatin procedure
 
+7) Customer portal is avaliable at http://sp-$yourdomain.rhcloud.com/sd
+
 # TODO
 
-1. Add Customer portal.
-2. Add Kladr.
+1. Take a rest.
+2. Add OpenShift-specific documentation
