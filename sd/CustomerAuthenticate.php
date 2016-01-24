@@ -34,13 +34,13 @@ $err = $client->getError();
 if ($err)
 {
 	//Uncomment the following lines to get the error message in login screen itself.
-	
+
 	echo '<h2>Error Message</h2><pre>' . $err . '</pre>';
 	echo '<h2>request</h2><pre>' . htmlspecialchars($client->request, ENT_QUOTES) . '</pre>';
 	echo '<h2>response</h2><pre>' . htmlspecialchars($client->response, ENT_QUOTES) . '</pre>';
 	echo '<h2>debug</h2><pre>' . htmlspecialchars($client->debug_str, ENT_QUOTES) . '</pre>';
 	exit;
-	
+
 	$login_error_msg = getTranslatedString("LBL_CANNOT_CONNECT_SERVER");
 	$login_error_msg = base64_encode('<font color=red size=1px;> '.$login_error_msg.' </font>');
 	header("Location: login.php?login_error=$login_error_msg");

@@ -7640,7 +7640,7 @@ class nusoap_client extends nusoap_base  {
 				}
 			break;
 			default:
-				$this->setError('hui. no transport found, or selected transport is not yet supported!');
+				$this->setError('no transport found, or selected transport is not yet supported!');
 			return false;
 			break;
 		}
