@@ -1,0 +1,56 @@
+Общие подкаталоги: /home/andrey/src/customerportal/Accounts и sd/Accounts
+Общие подкаталоги: /home/andrey/src/customerportal/Assets и sd/Assets
+Общие подкаталоги: /home/andrey/src/customerportal/Contacts и sd/Contacts
+Общие подкаталоги: /home/andrey/src/customerportal/css и sd/css
+diff -u /home/andrey/src/customerportal/CustomerAuthenticate.php sd/CustomerAuthenticate.php
+--- /home/andrey/src/customerportal/CustomerAuthenticate.php	2015-12-18 15:08:39.000000000 +0300
++++ sd/CustomerAuthenticate.php	2016-01-25 01:29:56.973780874 +0300
+@@ -34,13 +34,13 @@
+ if ($err)
+ {
+ 	//Uncomment the following lines to get the error message in login screen itself.
+-	/*
++
+ 	echo '<h2>Error Message</h2><pre>' . $err . '</pre>';
+ 	echo '<h2>request</h2><pre>' . htmlspecialchars($client->request, ENT_QUOTES) . '</pre>';
+ 	echo '<h2>response</h2><pre>' . htmlspecialchars($client->response, ENT_QUOTES) . '</pre>';
+ 	echo '<h2>debug</h2><pre>' . htmlspecialchars($client->debug_str, ENT_QUOTES) . '</pre>';
+ 	exit;
+-	*/
++
+ 	$login_error_msg = getTranslatedString("LBL_CANNOT_CONNECT_SERVER");
+ 	$login_error_msg = base64_encode('<font color=red size=1px;> '.$login_error_msg.' </font>');
+ 	header("Location: login.php?login_error=$login_error_msg");
+Общие подкаталоги: /home/andrey/src/customerportal/Documents и sd/Documents
+Общие подкаталоги: /home/andrey/src/customerportal/Faq и sd/Faq
+Общие подкаталоги: /home/andrey/src/customerportal/fonts и sd/fonts
+Общие подкаталоги: /home/andrey/src/customerportal/HelpDesk и sd/HelpDesk
+Общие подкаталоги: /home/andrey/src/customerportal/images и sd/images
+Общие подкаталоги: /home/andrey/src/customerportal/include и sd/include
+Общие подкаталоги: /home/andrey/src/customerportal/Invoice и sd/Invoice
+Общие подкаталоги: /home/andrey/src/customerportal/js и sd/js
+Общие подкаталоги: /home/andrey/src/customerportal/language и sd/language
+Общие подкаталоги: /home/andrey/src/customerportal/libraries и sd/libraries
+Общие подкаталоги: /home/andrey/src/customerportal/nusoap и sd/nusoap
+diff -u /home/andrey/src/customerportal/PortalConfig.php sd/PortalConfig.php
+--- /home/andrey/src/customerportal/PortalConfig.php	2015-12-18 15:17:20.000000000 +0300
++++ sd/PortalConfig.php	2016-01-25 01:29:06.621588389 +0300
+@@ -17,11 +17,11 @@
+ 
+ // CRM URL without out trialing /
+ // Example: http://yourdomain.com/crm
+-$Server_Path = "http://localhost/vtiger640test1";
++$Server_Path = "http://".getenv('OPENSHIFT_GEAR_DNS');
+ 
+ // Portal URL without trialing /
+ // Example: http://yourdomain.com/portal
+-$Authenticate_Path = "http://localhost/customerportal6";
++$Authenticate_Path = "http://".getenv('OPENSHIFT_GEAR_DNS')."/sd";
+ 
+ //Give a temporary directory path which is used when we upload attachment
+ $upload_dir = '/tmp';
+Общие подкаталоги: /home/andrey/src/customerportal/Products и sd/Products
+Общие подкаталоги: /home/andrey/src/customerportal/Project и sd/Project
+Общие подкаталоги: /home/andrey/src/customerportal/Quotes и sd/Quotes
+Общие подкаталоги: /home/andrey/src/customerportal/Services и sd/Services
+Общие подкаталоги: /home/andrey/src/customerportal/test и sd/test
