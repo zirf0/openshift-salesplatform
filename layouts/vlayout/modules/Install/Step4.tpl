@@ -58,7 +58,11 @@
 						</tbody>
 					</table>
 				
+<<<<<<< HEAD
 			<a href="http://openshift.redhat.com">	<img class="leftimg" src="http://blog-zirf.rhcloud.com/wp-content/uploads/2015/12/openshift-300x112.png" alt="openshift" width="100" height="34" /> </a></i>
+=======
+			<a href="http://openshift.redhat.com">	<img class="leftimg" src="http://blog-zirf.rhcloud.com/wp-content/uploads/2015/12/openshift-300x112.png" alt="openshift" width="100" height="34" /> </i> </a>
+>>>>>>> 884344291a43a71abff4fe2d218600b9ef202e14
 				
 				</div>
 				<div class="span6">
