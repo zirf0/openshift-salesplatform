@@ -58,8 +58,7 @@
 						</tbody>
 					</table>
 				
-				<img class="leftimg" src="http://blog-zirf.rhcloud.com/wp-content/uploads/2015/12/openshift-300x112.png" alt="openshift" width="100" height="34" />
-				<p style="text-align: justify;">Эта сборка предназначена для  OpenShift, данные СУБД заполняются автоматически.</p>
+			<a href="http://openshift.redhat.com">	<img class="leftimg" src="http://blog-zirf.rhcloud.com/wp-content/uploads/2015/12/openshift-300x112.png" alt="openshift" width="100" height="34" /> </i>
 				
 				</div>
 				<div class="span6">
