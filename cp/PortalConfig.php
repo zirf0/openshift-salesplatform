@@ -21,7 +21,7 @@ $Server_Path = ['OPENSHIFT_GEAR_DNS']
 
 // Portal URL without trialing /
 // Example: http://yourdomain.com/portal
-$Authenticate_Path = [OPENSHIFT_GEAR_DNS/cp]
+$Authenticate_Path = ['OPENSHIFT_GEAR_DNS/cp']
 
 //Give a temporary directory path which is used when we upload attachment
 $upload_dir = '/tmp';
