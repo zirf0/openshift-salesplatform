@@ -12,7 +12,7 @@ SalesPlatform is a fork of VtigerCRM adapted for Russian Federation. Version 6.4
 
     $ rhc app create sp php-5.3 mysql-5.5 
 
-3) Add this upstream mediawiki repo
+3) Add this upstream repo
 
     $ cd sp
     $ git remote add upstream -m master git://github.com/zirf0/openshift-salesplatform.git
