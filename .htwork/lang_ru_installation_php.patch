@@ -1,0 +1,18 @@
+--- /home/andrey/src/vtigercrm/languages/ru_ru/Install.php	2015-12-23 15:44:06.000000000 +0300
++++ /home/andrey/sp/languages/ru_ru/Install.php	2016-01-24 07:26:10.745811317 +0300
+@@ -30,7 +30,7 @@
+ 	'LBL_PHP_RECOMMENDED_SETTINGS'=>'Рекомендованные параметры PHP',
+ 	'LBL_READ_WRITE_ACCESS' => 'Доступ на Чтение/Запись',
+ 	'LBL_SYSTEM_CONFIGURATION' => 'Конфигурация системы',
+-	'LBL_DATABASE_INFORMATION' => 'Информация БД',
++	'LBL_DATABASE_INFORMATION' => 'Информация БД (изменять не надо!)',
+ 	'LBL_DATABASE_TYPE' => 'Тип БД',
+ 	'LBL_HOST_NAME' => 'Хост',
+ 	'LBL_USERNAME' => 'Пользователь',
+@@ -82,4 +82,4 @@
+ 
+ // SalesPlatform.ru begin SPConfiguration fix
+ include 'renamed/Install.php';
+-// SalesPlatform.ru end
+\ В конце файла нет новой строки
++// SalesPlatform.ru end
